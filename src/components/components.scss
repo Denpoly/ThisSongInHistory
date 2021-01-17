@@ -1,0 +1,62 @@
+:root {
+    --background: #f5f6fa;
+    --text: #9c9c9c;
+    --input-bg-color: #fff;
+    --input-text-color: #a3a3a3;
+    --button-bg-color: #7f8ff4;
+    --button-text-color: #fff;
+}
+
+.form {	
+    width: 360px;
+    background: #fff;
+    color: var(input-text-color);
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    outline: 0;
+    outline-width: 5;
+    outline-color: #000000;
+    padding: 22px 18px;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #43DE00;
+    color: white;
+    font-size: 20px;
+    height: 10
+}
+.left{
+    float: "left"
+}
+.textDiv{
+    float: left
+}
+.headerText {
+    font-family: "Lucida Handwriting";
+
+    color: #009400;
+    padding-left: 5%;
+    padding-top: 1%;
+    text-align: left
+  }
+
+.subHeaderText {
+    left: 10px;
+    font-size: 18px;
+    font-family: "Lucida Handwriting";
+    color: #7B8D93;
+    padding-left: 5%;
+    width: 25%;
+    text-align: left;
+    padding-bottom: 2%
+}
+.img {
+    float: right;
+    vertical-align: middle;
+}
+.auto{
+    float: top
+}
